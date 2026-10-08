@@ -69,11 +69,14 @@ omarchy theme set starbase
 
 ![Ultrawide desktop](previews/ultrawide-desktop.jpg)
 
-## Boot screen
+## Unlock screen
 
-`unlock.png` is a Mars-and-transfer-orbit emblem for the Plymouth disk-unlock
-screen. Omarchy applies it when you choose Starbase under Style › Unlock (or run
-`omarchy-plymouth-set-by-theme starbase`, which needs sudo).
+![Unlock screen](preview-unlock.png)
+
+The disk-unlock screen shows a Starship rising off the sunlit limb of Mars, over
+a STARBASE wordmark drawn for this theme. Choose it under Style › Unlock, or run
+`omarchy-plymouth-set-by-theme starbase` (needs sudo, and rebuilds the
+initramfs).
 
 ## Install
 
@@ -87,10 +90,11 @@ Switch back to it later with `omarchy theme set starbase`, update it with
 
 ## Credits
 
-The backgrounds were generated with OpenAI's image model through the Codex CLI,
-then upscaled with SeedVR2 7B (ByteDance Seed, Apache-2.0) in ComfyUI, running
-in overlapping tiles on Apple Silicon. The palette, btop theme and boot emblem
-were made by hand for this theme.
+The backgrounds and the unlock-screen artwork were generated with OpenAI's image
+model through the Codex CLI. The backgrounds were then upscaled with SeedVR2 7B
+(ByteDance Seed, Apache-2.0) in ComfyUI, running in overlapping tiles on Apple
+Silicon. The palette, the btop theme and the STARBASE wordmark were made by hand
+for this theme.
 
 Starbase is an unofficial fan tribute. It is not affiliated with, sponsored by,
 or endorsed by Space Exploration Technologies Corp. SpaceX, Starship, Starbase,

@@ -1,0 +1,45 @@
+# Starbase: an Omarchy tribute to Starship, Starbase and the road to Mars.
+#
+#   space black      vacuum, night pads and control rooms
+#   stainless steel  greys and whites, the 30X hull under floodlights
+#   mars orange      the accent: regolith, re-entry plasma, Raptor exhaust
+#   exhaust          green slot burns amber (as Matte Black does) so the
+#                    fastfetch logo and "go" states glow like a plume
+#   methalox         muted secondaries: flame blue, LOX-frost cyan,
+#                    shock-diamond violet, sodium-lamp gold
+
+mode = "dark"
+
+accent = "#f8661c"
+selection = "#2a2e33"
+muted = "#5a6068"
+
+background = "#0a0b0d"
+dark_background = "#070809"
+darker_background = "#040405"
+lighter_background = "#15171a"
+
+foreground = "#d4d7db"
+dark_foreground = "#5f656d"
+light_foreground = "#9ea4ab"
+bright_foreground = "#f4f5f7"
+
+# Window borders burn like an engine plume: Mars orange into hot amber.
+hyprland_active_border = "rgba(f8661cff) rgba(ffb347ff) 45deg"
+hyprland_inactive_border = "rgba(2a2e33aa)"
+
+red = "#e5484d"
+orange = "#f8661c"
+yellow = "#e9c46a"
+green = "#ffb347"
+cyan = "#86b9c4"
+blue = "#7ea3d0"
+magenta = "#a995d6"
+brown = "#8a4520"
+
+bright_red = "#ff6b6f"
+bright_yellow = "#f5dc94"
+bright_green = "#ffcc85"
+bright_cyan = "#a6d7e1"
+bright_blue = "#a2c0e6"
+bright_magenta = "#c6b5ec"

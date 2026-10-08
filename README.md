@@ -4,6 +4,16 @@ An [Omarchy](https://omarchy.org/) theme celebrating Starship, Starbase and the
 long road to Mars. Space black, stainless-steel greys and whites, and one hot
 accent taken from Mars and from a Raptor plume.
 
+## Install
+
+```bash
+omarchy theme install https://github.com/renerocksai/omarchy-starbase-theme.git
+```
+
+That clones the repo into `~/.config/omarchy/themes/starbase` and applies it.
+Switch back to it later with `omarchy theme set starbase`, update it with
+`omarchy theme update`, and remove it with `omarchy theme remove starbase`.
+
 ![Starbase](preview.png)
 
 ## The palette
@@ -77,16 +87,6 @@ The disk-unlock screen shows a Starship rising off the sunlit limb of Mars, over
 a STARBASE wordmark drawn for this theme. Choose it under Style › Unlock, or run
 `omarchy-plymouth-set-by-theme starbase` (needs sudo, and rebuilds the
 initramfs).
-
-## Install
-
-```bash
-omarchy theme install https://github.com/renerocksai/omarchy-starbase-theme.git
-```
-
-That clones the repo into `~/.config/omarchy/themes/starbase` and applies it.
-Switch back to it later with `omarchy theme set starbase`, update it with
-`omarchy theme update`, and remove it with `omarchy theme remove starbase`.
 
 ## Credits
 
